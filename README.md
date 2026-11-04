@@ -18,8 +18,8 @@ PHP 8.3+, Composer, MySQL, Git (paling mudah memakai **Laragon**).
 
 ## Menjalankan project dari GitHub
 ```bash
-git clone https://github.com/USERNAME/apotek-terintegrasi.git
-cd apotek-terintegrasi
+git clone https://github.com/Guard-69/Apotek-Teratai.git
+cd Apotek-Teratai
 composer install
 copy .env.example .env        # Windows (Mac/Linux: cp .env.example .env)
 php artisan key:generate
