@@ -37,6 +37,33 @@ Buka http://127.0.0.1:8000 di browser. Pastikan MySQL (Laragon > Start All) suda
 | PUT / PATCH | `/api/{data}/{id}` | Ubah (body JSON lengkap) |
 | DELETE | `/api/{data}/{id}` | Hapus |
 
+Body untuk Pelanggan ({{base_url}}/pelanggan):
+
+{
+  "nama": "Budi Santoso",
+  "alamat": "Jl. Merdeka No. 10, Lhokseumawe",
+  "no_hp": "081234567890"
+}
+
+Body untuk Staf Apotek ({{base_url}}/staf):
+
+{
+  "nama": "Siti Aminah",
+  "alamat": "Jl. Iskandar Muda No. 5, Lhokseumawe",
+  "tanggal_lahir": "1995-04-17",
+  "tempat_lahir": "Lhokseumawe",
+  "no_hp": "082345678901"
+}
+
+Body untuk Obat ({{base_url}}/obat):
+
+{
+  "kode_obat": "OBT-9001",
+  "nama_obat": "Paracetamol 500 mg",
+  "stok": 120,
+  "tanggal_kadaluarsa": "2028-12-31"
+}
+
 Header wajib: `Accept: application/json`.
 Import `postman/API_Apotek.postman_collection.json` dan `postman/Lokal_Apotek.postman_environment.json` ke Postman.
 
