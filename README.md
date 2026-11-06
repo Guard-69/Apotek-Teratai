@@ -40,7 +40,7 @@ Buka http://127.0.0.1:8000 di browser. Pastikan MySQL (Laragon > Start All) suda
 ### Body untuk Pelanggan ({{base_url}}/pelanggan):
 ```json
 {
-  "nama": "Budi Santoso",
+  "nama": "Guard",
   "alamat": "Jl. Merdeka No. 10, Lhokseumawe",
   "no_hp": "081234567890"
 }
@@ -48,7 +48,7 @@ Buka http://127.0.0.1:8000 di browser. Pastikan MySQL (Laragon > Start All) suda
 ### Body untuk Staf Apotek ({{base_url}}/staf):
 ```
 {
-  "nama": "Siti Aminah",
+  "nama": "Knight",
   "alamat": "Jl. Iskandar Muda No. 5, Lhokseumawe",
   "tanggal_lahir": "1995-04-17",
   "tempat_lahir": "Lhokseumawe",
